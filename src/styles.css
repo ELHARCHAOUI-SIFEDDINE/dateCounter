@@ -1,0 +1,90 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #eef2f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.counter-card {
+  background: linear-gradient(135deg, #6e7cfe, #8c87fc);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.counter-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.counter-controls,
+.step-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.control-button {
+  background-color: #ffffff;
+  border: none;
+  color: #6e7cfe;
+  padding: 15px 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s;
+  width: 50px; 
+}
+
+.control-button.decrease:hover {
+  background-color: #ffcccc; 
+}
+
+.control-button.increase:hover {
+  background-color: #ccffcc; 
+}
+
+.count-display,
+.step-display {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.date-info {
+  margin-top: 20px;
+}
+
+.date-message {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.date-display {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+}
